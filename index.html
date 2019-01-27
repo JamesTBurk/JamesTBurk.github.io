@@ -31,13 +31,13 @@
   </nav>
 
   <body id="home">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6">
+    <div class="container-fluid table-container jumbotron">
+      <div class="row table-row">
+        <div class="col-sm-6 table-col">
           <img class="img-responsive pogo" src="Pogo.png" />
         </div>
-        <div class="col-sm-6">
-          <p class="jumbotron">Here at New Line Dev, I specialize in bringing great app ideas to life.
+        <div class="col-sm-6 table-col">
+          <p id="intro">Here at New Line Dev, I specialize in bringing great app ideas to life.
             Bringing an app idea to life can be a daunting thought and a hard road; that's where I come in.
             I work to make creating your idea into a functioning app a manageable and stress-free process. Some would even call it fun!
             With over 7 years in the app development business, I am confident I can make your great idea in to a great app.
@@ -74,9 +74,7 @@
           <h3>WEB DEVELOPMENT</h3>
           <ul>
             <li> .NET </li>
-            <br>
             <li> PHP </li>
-            <br>
             <li> Ruby on Rails </li>
           </ul>
         </div>
@@ -84,9 +82,7 @@
           <h3>CONSULTING</h3>
           <ul>
             <li> Feature/Development Roadmap </li>
-            <br>
             <li> UI/UX Design </li>
-            <br>
             <li> Pricing and Feature Reviews </li>
           </ul>
         </div>
@@ -94,48 +90,49 @@
     </div>
 
     <div id="portfolio" class="container-fluid">
-      <div class="text-right">
+      <div class="text-left">
         <h1>Portfolio</h1>
         <p>New Line Dev has been around a little over a year and has already worked on some exciting apps. Take a look below!</p>
       </div>
-      <h2 class="text-center">iOS Apps</h2> <br>
       <div class="row">
-        <div class="col-sm-3">
+        <h2 class="col-sm-8 text-center">iOS Apps</h2>
+        <h2 class="col-sm-4 text-center">Android Apps</h2> <br>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
           <a href="https://itunes.apple.com/us/app/cloosiv/id1287514760?mt=8">
             <img class="img-responsive app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b1/4e/32/b14e320c-ad8f-e23a-cdf0-6858ba3ef4ea/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/400x400bb.jpg" />
             <br><p class="text-center">Cloosiv</p>
           </a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <a href="https://itunes.apple.com/us/app/cloosiv-for-merchants/id1307264346?mt=8">
             <img class="img-responsive app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/48/8a/bc/488abce1-8654-f400-529c-ddcaf7225c81/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/400x400bb.jpg" />
             <br><p class="text-center">Cloosiv for Merchants</p>
           </a>
         </div>
-        <div class="col-sm-3">
-          <a href="https://itunes.apple.com/us/app/reformcow-city-complaints/id1099270567?mt=8">
-            <img class="img-responsive app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/13/34/a4/1334a44f-f79f-5566-aba8-367db16bc5fb/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-1.png/400x400bb.jpg" />
-            <br><p class="text-center">ReformCOW-City Complaints</p>
-          </a>
-        </div>
-        <div class="col-sm-3">
-          <a href="https://itunes.apple.com/us/app/flip-anything/id1315136189?mt=8">
-            <img class="img-responsive app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/12/f7/78/12f7784c-bca6-41fb-af51-bd0e48bd6d31/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-2.jpeg/400x400bb.jpg" />
-            <br><p class="text-center">Flip Anything</p>
-          </a>
-        </div>
-      </div>
-
-      <h2 class="text-center">Android Apps</h2> <br>
-      <div class="row">
-        <div class="col-sm-3"> </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <a href="https://play.google.com/store/apps/details?id=com.viteshopping.cloosiv">
             <img class="img-responsive app-icon" src="https://lh3.googleusercontent.com/wtdb9zLQ8etbyonVeE9i9Crdf6fpeCdG1RtySXYEX66jtbOitg4zGZCCySCwzcaSmQY=s180-rw" />
             <br><p class="text-center">Cloosiv</p>
           </a>
         </div>
-        <div class="col-sm-3">
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://itunes.apple.com/us/app/reformcow-city-complaints/id1099270567?mt=8">
+            <img class="img-responsive app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/13/34/a4/1334a44f-f79f-5566-aba8-367db16bc5fb/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-1.png/400x400bb.jpg" />
+            <br><p class="text-center">ReformCOW-City Complaints</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://itunes.apple.com/us/app/flip-anything/id1315136189?mt=8">
+            <img class="img-responsive app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/12/f7/78/12f7784c-bca6-41fb-af51-bd0e48bd6d31/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-2.jpeg/400x400bb.jpg" />
+            <br><p class="text-center">Flip Anything</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
           <a href="https://play.google.com/store/apps/details?id=com.viteshopping.merchant">
             <img class="img-responsive app-icon" src="https://lh3.googleusercontent.com/eQv5I8YJDLTwaFBhXZSDf51wn-mMOe1O-YD3p2acNB0s1ENPlvdmP6LG3y_QwfS7oQ=s180-rw" />
             <br><p class="text-center">Cloosiv for Merchants</p>
